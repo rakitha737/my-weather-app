@@ -5,11 +5,9 @@
       "name": "npm start",
       "type": "chrome",
       "request": "launch",
-      "url": "http://localhost:5000/#",
+      "url": "http://localhost:4200",
       "webRoot": "${workspaceRoot}",
-      "runtimeArgs": [
-        "--remote-debugging-port=9222"
-        ],
+      "runtimeArgs": ["--remote-debugging-port=9222"],
       "sourceMaps": true
     },
     {
@@ -18,9 +16,7 @@
       "request": "launch",
       "url": "http://localhost:9876/debug.html",
       "webRoot": "${workspaceRoot}",
-      "runtimeArgs": [
-        "--remote-debugging-port=9222"
-        ],
+      "runtimeArgs": ["--remote-debugging-port=9222"],
       "sourceMaps": true
     },
     {
